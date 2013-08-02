@@ -8,7 +8,12 @@ import edu.gatech.cs2340.gradebook.model.Lecture;
  * @author Caroline Paulus
  */
 public interface LectureCreator {
-
+     /**
+      * Creates a new Lecture and returns it
+      *
+      * @param description  Description of lecture (time, date, etc)
+      * @return new Lecture
+      */
      Lecture createLecture(String description);
 
 }

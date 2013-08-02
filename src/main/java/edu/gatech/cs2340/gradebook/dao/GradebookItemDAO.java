@@ -9,6 +9,12 @@ import edu.gatech.cs2340.gradebook.model.GradebookItem;
  */
 public interface GradebookItemDAO {
 
+     /**
+      * Adds a gradebook item to a database and returns it
+      *
+      * @param Gradebook item being added
+      * @return Gradebook item that was added
+      */
      GradebookItem addGradebookItem(GradebookItem gradebookItem);
 
 }
